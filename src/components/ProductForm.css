@@ -1,0 +1,29 @@
+.product-form {
+  width: 300px;
+  margin-bottom: 2rem;
+}
+
+.product-form h2 {
+  margin-bottom: 1rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.back-button {
+  background-color: #777;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #555;
+}

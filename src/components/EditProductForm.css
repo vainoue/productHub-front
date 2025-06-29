@@ -1,0 +1,12 @@
+.edit-product-form {
+  width: 300px;
+  margin-bottom: 2rem;
+}
+
+.edit-product-form h2 {
+  margin-bottom: 1rem;
+}
+
+.edit-product-form button {
+  margin-left: 10px;
+}

@@ -1,0 +1,13 @@
+.product-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  border-top: 1px solid #ccc;
+}
+
+.empty-message {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  margin-top: 2rem;
+}
