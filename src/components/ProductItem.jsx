@@ -12,7 +12,7 @@ import {
   MoreVertical
 } from "lucide-react";
 
-const API_BASE_URL = 'https://product-back-latest.onrender.com/api';
+const API_BASE_URL = `${import.meta.env.VITE_API_URL}/api`;
 
 export default function ProductItem({ product, onEdit, onRemove }) {
     const [isFavorited, setIsFavorited] = useState(false);

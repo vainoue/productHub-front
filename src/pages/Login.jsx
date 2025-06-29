@@ -95,9 +95,9 @@ export default function Login() {
                             </div>
                         </div>
 
-                        <button 
-                            type="submit" 
-                            className="btn-primary w-full flex items-center justify-center space-x-2" 
+                        <button
+                            type="submit"
+                            className="btn-primary w-full flex items-center justify-center space-x-2"
                             disabled={loading}
                         >
                             {loading ? (
@@ -123,17 +123,6 @@ export default function Login() {
                             </button>
                         </p>
                     </div>
-                </div>
-
-                {/* Demo credentials */}
-                <div className="mt-6 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-xl border border-blue-200 dark:border-blue-800">
-                    <p className="text-sm text-blue-800 dark:text-blue-200 font-medium mb-2">
-                        Demo credentials:
-                    </p>
-                    <p className="text-xs text-blue-600 dark:text-blue-300">
-                        Username: <span className="font-mono">test</span><br />
-                        Password: <span className="font-mono">123</span>
-                    </p>
                 </div>
             </div>
         </div>

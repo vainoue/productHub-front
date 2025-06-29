@@ -3,7 +3,7 @@ import { toast } from 'react-toastify';
 import { useAuth } from './AuthContext';
 import { Heart, Package, User, DollarSign, Loader2 } from 'lucide-react';
 
-const API_BASE_URL = 'https://product-back-latest.onrender.com/api';
+const API_BASE_URL = `${import.meta.env.VITE_API_URL}/api`;
 
 export default function Favorites() {
     const [favorites, setFavorites] = useState([]);
